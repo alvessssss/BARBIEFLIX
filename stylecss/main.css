@@ -1,0 +1,190 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+    --rosa: rgb(255, 0, 212);
+    --rosafundo: rgb(255, 0, 255) ;
+
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elemento base*/
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+     display:flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+
+}
+   
+header .logo{
+    margin-left: 5px;
+    color: var(--rosa);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--rosa);
+}
+
+/*fime Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: url('/img/barbie/capafilmeatual6.jpg');
+    background-color: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50),100% ), url('/img/barbie/capafilmeatual6.jpg');
+    height:600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.filme-principal .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Arial', Arial, sans-serif;
+}
+
+
+.filme-principal a{
+    color: white;
+}
+
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 18px;
+    margin-left: 30px;
+    
+
+
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: white;
+    color: var(--rosa);
+}
+
+.botao i{
+    margin-right: 8px;
+    
+    
+}
+
+
+
+
+.container{
+    margin-left: 30px;
+}
+
+.filme-principal .container{
+    width: 70%;
+    
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    
+}
+
+.carrosel-filme{
+    margin-top: 5px;
+}
+
+.assistir{
+    text-decoration: none;
+    border: none;
+    
+    
+    
+
+}
+
+.assistir:hover{
+    
+    color: var(--rosa);
+}
+
+.titulo2{
+    font-size: 25px;
+    font-family: 'Arial', Arial, sans-serif;
+    margin-bottom: 8px;
+}
+
+.classificacao{
+    margin-top: 30px;
+    margin-bottom: 8px;
+    
+    border: none;
+    color: white;
+
+
+    font-size: 18px;
+    
+
+    
+}
+
+.desc-meio{
+    display: flex;
+    
+    font-size: 18px;
+  
+    
+}
+
+.classificacao .avaliacao{
+    margin-right: 13px;
+    
+}
+
+.avaliacao1{
+    color: rgb(255, 68, 183);
+    
+}
+
+
+
+
+
+
+
+
